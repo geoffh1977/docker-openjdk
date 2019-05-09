@@ -1,4 +1,5 @@
-tools/
-container.conf
+scripts/
+templates/
+config.yml
 README.md
 Makefile

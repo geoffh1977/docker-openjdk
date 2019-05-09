@@ -1,0 +1,17 @@
+---
+# Project Variables
+dockerUser: geoffh1977
+dockerUserEmail: geoffh1977@gmail.com
+license: gnu-gpl-v3.0
+
+# Source Container Variables
+buildImageName: alpine
+buildImageVersion: latest
+
+# Final Image Variables
+finalImageName: openjdk8
+finalImageVersion: 8.212.04
+
+# Software Version
+appname: OpenJDK 8
+javaMajorVersion: 8
