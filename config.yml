@@ -13,5 +13,5 @@ finalImageName: openjdk8
 finalImageVersion: 8.212.04
 
 # Software Version
-appname: OpenJDK 8
+appName: OpenJDK 8
 javaMajorVersion: 8
