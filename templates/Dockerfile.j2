@@ -3,7 +3,7 @@ FROM {{ dockerUser + "/" + buildImageName + ":" + buildImageVersion }}
 LABEL maintainer="{{ dockerUser }} <{{ dockerUserEmail }}>"
 USER root
 
-ARG OPENJDK_VERSION={{ finalImageVersion }} \
+ENV OPENJDK_VERSION={{ finalImageVersion }} \
     JAVA_HOME=/usr/lib/jvm/default-jvm/jre
 
 # Install OpenJDK
